@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .bar {
+            position: fixed;
+            width: 100%;
+            height: 40px;
+            background: royalblue;
+            opacity: .8;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+        a {
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+            margin-right: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bar">
+        <a href="./one.html" target="myFrame">正方体</a>
+        <a href="./three.html" target="myFrame">头像正方体</a>
+        <a href="./two.html" target="myFrame">正八边体</a>
+    </div>
+    <iframe src="./one.html" name="myFrame" scrolling="no" frameborder="0"></iframe>
+</body>
+
+</html>
